@@ -1,5 +1,5 @@
 view: products {
-  sql_table_name: `thelook_ecommerce.products` ;;
+  sql_table_name: `thelook_ecommerce_us.products` ;;
   drill_fields: [id]
 
   dimension: id {

@@ -1,5 +1,5 @@
 view: distribution_centers {
-  sql_table_name: `thelook_ecommerce.distribution_centers` ;;
+  sql_table_name: `thelook_ecommerce_us.distribution_centers` ;;
   drill_fields: [id]
 
   dimension: id {

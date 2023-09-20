@@ -1,5 +1,5 @@
 view: events {
-  sql_table_name: `thelook_ecommerce.events` ;;
+  sql_table_name: `thelook_ecommerce_us.events` ;;
   drill_fields: [id]
 
   dimension: id {
