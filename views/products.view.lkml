@@ -1,5 +1,5 @@
 view: products {
-  sql_table_name: `thelook_ecommerce_us.products` ;;
+  sql_table_name: `thelook_ecommerce_us.vw_products` ;;
   drill_fields: [id]
 
   dimension: id {
@@ -48,13 +48,13 @@ view: products {
   # ----- Sets of fields for drilling ------
   set: detail {
     fields: [
-	id,
-	name,
-	distribution_centers.name,
-	distribution_centers.id,
-	inventory_items.count,
-	order_items.count
-	]
+  id,
+  name,
+  distribution_centers.name,
+  distribution_centers.id,
+  inventory_items.count,
+  order_items.count
+  ]
   }
 
 }

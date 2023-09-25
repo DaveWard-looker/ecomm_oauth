@@ -73,13 +73,15 @@ view: users {
   # ----- Sets of fields for drilling ------
   set: detail {
     fields: [
-	id,
-	last_name,
-	first_name,
-	orders.count,
-	order_items.count,
-	events.count
-	]
+  id,
+  last_name,
+  first_name,
+  country,
+  city,
+  orders.count,
+  order_items.count,
+  events.count
+  ]
   }
 
 }
