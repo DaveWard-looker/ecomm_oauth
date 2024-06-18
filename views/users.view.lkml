@@ -1,5 +1,5 @@
 view: users {
-  sql_table_name: `thelook_ecommerce_us.vw_users` ;;
+  sql_table_name: users ;;
   drill_fields: [id]
 
   dimension: id {

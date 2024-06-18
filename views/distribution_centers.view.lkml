@@ -1,5 +1,5 @@
 view: distribution_centers {
-  sql_table_name: `thelook_ecommerce_us.vw_distribution_centers` ;;
+  sql_table_name: `daveward-ps-dev.ecomm.distribution_centers` ;;
   drill_fields: [id]
 
   dimension: id {
@@ -21,6 +21,6 @@ view: distribution_centers {
   }
   measure: count {
     type: count
-    drill_fields: [id, name, products.count]
+    drill_fields: [id, name]
   }
 }

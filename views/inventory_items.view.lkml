@@ -1,5 +1,5 @@
 view: inventory_items {
-  sql_table_name: `thelook_ecommerce_us.vw_inventory_items` ;;
+  sql_table_name: inventory_items ;;
   drill_fields: [id]
 
   dimension: id {

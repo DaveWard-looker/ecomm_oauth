@@ -1,5 +1,5 @@
 view: order_items {
-  sql_table_name: `thelook_ecommerce_us.vw_order_items` ;;
+  sql_table_name: order_items ;;
   drill_fields: [id]
 
   dimension: id {
